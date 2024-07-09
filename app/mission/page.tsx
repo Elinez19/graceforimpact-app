@@ -3,10 +3,8 @@ import OurMission from "@/components/Mission/Mission";
 import MissionGallery from "@/components/Mission/MissionGallery";
 import MissionOne from "@/components/Mission/MissionOne";
 import MissionTwo from "@/components/Mission/MissionTwo";
-import SectionTitleCard from "@/components/SectionTitleCard/SectionTitleCard";
-import Team from "@/components/Team/Team";
-import VisionTwo from "@/components/Vision/VisionThree";
-import WhoWeAre from "@/components/WhoWeAre-Cards/WhoWeAre";
+import WhoWeAre from "@/components/WhoWeAre";
+import WhoWeArePage from "../whoweare/page";
 
 const Mission = () => {
   return (
@@ -29,7 +27,7 @@ const Mission = () => {
       </div>
       <MissionTwo />
       <MissionGallery />
-      <WhoWeAre />
+      <WhoWeArePage />
     </>
   );
 };
