@@ -9,7 +9,7 @@ import WhoWeAre from "@/components/WhoWeAre";
 const AgriculturePage = () => {
   return (
     <>
-      <WhoWeAre />
+      <WhoWeAre title={""} description={""} />
       <AgricultureThree />
       <AgricultureTwo />
       <AgricultureVidGallery />
