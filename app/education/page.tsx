@@ -7,7 +7,7 @@ import WhoWeAre from "@/components/WhoWeAre";
 const EducationPage = () => {
   return (
     <>
-      <WhoWeAre />
+      <WhoWeAre title={""} description={""} />
       <EducationTwo />
       <EducationThree />
       <EducationVidGallery />
