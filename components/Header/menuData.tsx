@@ -1,0 +1,173 @@
+import { Menu } from "@/types/menu";
+
+const menuData: Menu[] = [
+  {
+    id: 1,
+    title: "About Us",
+    newTab: false,
+    submenu: [
+      {
+        id: 11,
+        title: "WhoWeAre",
+        path: "/whoweare",
+        newTab: false,
+      },
+      {
+        id: 12,
+        title: "Our History",
+        path: "/history",
+        newTab: false,
+      },
+      {
+        id: 13,
+        title: "Board of Directors",
+        path: "/board",
+        newTab: false,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "WhatWeDo",
+    path: "/whatwedo",
+    newTab: false,
+    submenu: [
+      {
+        id: 21,
+        title: "WhatWeDo",
+        path: "/whatwedo",
+        newTab: false,
+      },
+      {
+        id: 22,
+        title: "Education",
+        path: "/education",
+        newTab: false,
+      },
+      {
+        id: 23,
+        title: "Agriculture",
+        path: "/agriculture",
+        newTab: false,
+      },
+      {
+        id: 24,
+        title: "Capacity Development",
+        path: "/whatwedo",
+        newTab: false,
+      },
+      {
+        id: 25,
+        title: "Volunteer Empowerment",
+        path: "/whatwedo",
+        newTab: false,
+      },
+      {
+        id: 26,
+        title: "Skill Empowerment",
+        path: "/whatwedo",
+        newTab: false,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Get Involved",
+    newTab: false,
+    submenu: [
+      {
+        id: 31,
+        title: "Participate in Program",
+        path: "/getinvolved",
+        newTab: false,
+      },
+      {
+        id: 32,
+        title: "Mission Outreach",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 33,
+        title: "Drive Change in your Community",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 34,
+        title: "Advocate",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 35,
+        title: "Volunteer",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 36,
+        title: "Become a Partner",
+        path: "/signin",
+        newTab: false,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Resources",
+    newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Impact News and Events",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Mission Outreach",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 43,
+        title: "Impact Data ",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 44,
+        title: "Newsletter",
+        path: "/signup",
+        newTab: false,
+      },
+      {
+        id: 45,
+        title: "Upcoming Events",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 46,
+        title: "Gallery",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+        id: 47,
+        title: "Volunteer Engagement",
+        path: "/signup",
+        newTab: false,
+      },
+      {
+        id: 48,
+        title: "Impact Mission Kits",
+        path: "/blog",
+        newTab: false,
+      },
+    ],
+  },
+];
+
+export default menuData;
