@@ -7,7 +7,7 @@ import WhoWeAre from "@/components/WhoWeAre";
 const GetInvolvedPage = () => {
   return (
     <>
-      <WhoWeAre />
+      <WhoWeAre title={""} description={""} />
       <GetInvolvedThree />
       <GetInvolvedTwo />
       <GetInvolvedGallery />
