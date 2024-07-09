@@ -16,7 +16,7 @@ import WhoWeAre from "@/components/WhoWeAre";
 const Vision = () => {
   return (
     <>
-      <WhoWeAre />
+      <WhoWeAre title={""} description={""} />
       <HealthThree />
       <HealthTwo />
       <HealthVidGallery />
