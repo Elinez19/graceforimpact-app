@@ -4,16 +4,15 @@ const HISTORY = () => {
     return (
         <div className="relative w-full h-[38rem]">
             {/* Background Video */}
-            <div className="absolute inset-0">
-                <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    loop
-                    muted
-                >
-                    <source src="/videos/Grace-for-Impact-About-Us-Video.mp4" type="video/mp4" />
-                </video>
-            </div>
+            <div className="relative w-full h-0" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/5uO7a9n77Fs?autoplay=1&mute=1"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        ></iframe>
+      </div>
 
             {/* Overlay with Text Content */}
             <div className="absolute inset-0 bg-gray-900/40 flex items-center">

@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import Image from "next/image";
@@ -73,32 +74,28 @@ const sections: HistoryCardsData[] = [
     imgSrc: "/images/Gallery/grace-gallery-3.svg",
     videoId: "L61p2uyiMSo",
     title: "2017-Ghana added",
-    description:
-      "Prioritization of Eye Health and Cataract surgery",
+    description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "7",
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-4.svg",
     videoId: "L61p2uyiMSo",
     title: "2018-Madagascar, Kenya and Vietnam added",
-    description:
-      "Prioritization of Eye Health and Cataract surgery",
+    description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "8",
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-6.svg",
     videoId: "L61p2uyiMSo",
     title: "2019-Tanzania and Burkina Faso, Inaugural “Night for Sight Event",
-    description:
-      "Prioritization of Eye Health and Cataract surgery",
+    description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "9",
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-7.svg",
     videoId: "L61p2uyiMSo",
     title: "2020-Grace Vision Center preparations underway in Lagos, Nigeria",
-    description:
-      "Prioritization of Eye Health and Cataract surgery",
+    description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "9",
   },
 ];
@@ -115,19 +112,15 @@ const HistoryCards = () => {
   return (
     <div className="relative overflow-hidden bg-white py-16 space-y-24">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-        <h1 className="text-4xl font-bold text-purple">
-          HISTORY IN TIMELINE
-        </h1>
-        <p className="mt-2 text-lg text-purple">
-          Our HISTORY IN TIMELINE
-        </p>
+        <h1 className="text-4xl font-bold text-purple">HISTORY IN TIMELINE</h1>
+        <p className="mt-2 text-lg text-purple">Our HISTORY IN TIMELINE</p>
       </div>
       {sections.map((section, index) => (
         <div key={index} className="relative">
           <div
-            className={`max-w-7xl mx-auto px-6 lg:px-8 ${
-              index % 2 === 0 ? "lg:grid-cols-2" : "lg:grid-cols-2-reverse"
-            } lg:grid lg:gap-24 bg-gray-100 border border-gray-300 rounded-lg`}
+            className={`max-w-7xl mx-auto px-6 lg:px-8 lg:grid lg:gap-24 bg-gray-100 border border-gray-300 rounded-lg ${
+              index % 2 === 0 ? "lg:grid-cols-2" : "lg:grid-cols-2 lg:grid-cols-reverse"
+            }`}
           >
             <div className={`lg:order-${index % 2 === 0 ? 1 : 2}`}>
               <div className="px-6 lg:py-16 lg:px-0">

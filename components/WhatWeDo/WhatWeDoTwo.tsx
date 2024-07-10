@@ -18,12 +18,7 @@ const WhatWeDoTwo = () => {
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300">
-              The GFI welcomes everyone, which is why our programs, services and
-              initiatives are so wide ranging. We inspire kids to realize their
-              potential, prepare teens for college and career, provide
-              opportunities for families to bond and support people of all ages
-              and backgrounds to be healthier in spirit, mind and body. And
-              that’s just the beginning.
+            Grace ensures sustainability, scalability and lasting impact by collaborating with health professionals and partners on the ground in the countries we work. Through these collaborations, we are able to work effectively and efficiently delivering a strong value for money to our donors and partners.
             </p>
           </div>
         </div>

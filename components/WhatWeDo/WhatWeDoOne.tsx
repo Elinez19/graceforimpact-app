@@ -7,10 +7,7 @@ const WhatWeDoOne = () => {
             What We Do
           </h1>
           <p className="text-base text-black mb-2">
-            At the GFI, we create opportunities for people to improve their
-            lives and their communities. Through empowering young people,
-            improving individual and community well-being, and inspiring action,
-            we aim to create meaningful change across the country.
+          Grace ensures sustainability, scalability and lasting impact by collaborating with health professionals and partners on the ground in the countries we work. Through these collaborations, we are able to work effectively and efficiently delivering a strong value for money to our donors and partners.
           </p>
         </div>
         <div className="flex  justify-center mt-6 -ml-60">
