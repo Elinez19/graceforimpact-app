@@ -39,8 +39,28 @@ const sections: HealthData[] = [
     description: `39 million people in the world are blind, and a further 191 million are visually impaired. Blindness is most prevalent in developing countries where malnutrition, inadequate health and education services, poor water quality, and a lack of sanitation lead to a high incidence of eye disease.
 Cataracts remain the leading cause of blindness in middle and low-income countries. A cataract occurs when clumping of cells or protein causes a cloudy or opaque area in the transparent lens which obstructs light as it thickens. Cataracts are easily reversible; the surgical procedure costing between $25 and $250, taking as little as 10 minutes.
 Collectively, blindness and visual impairment costs developing countries around $49 billion per year in lost economic activity. Completely ending avoidable blindness is expected to inject $517.1 billion into the poorest economies over a decade. Following eye surgery, a large amount of people are able to return to the workforce to be a productive part of society. Those who are not working are able to perform essential tasks for daily living on their own, freeing their caretakers- often children- to return to work or school. In the developing world, for every dollar invested, there is a $4 economic gain.
+Grace for Impact’s life-changing eye health program is made possible by our generous donors and partners- please make a generous gift TODAY!
 `,
     memberId: "2",
+  },
+  {
+    imgSrc: "/images/board/board-img-5.svg",
+    videoId: "L61p2uyiMSo",
+    title: "DENTAL HEALTH",
+    description: `Did you know that poor dental health could further cause problems such as heart disease, strokes, and diabetes? According to the World Health Organization, 60–90% of school children and nearly 100% of adults worldwide have dental cavities. About 30% of people aged 65-74 have no natural teeth.
+ 
+Oral disease in children and adults is higher among poor and disadvantaged population groups. Risk factors for oral diseases include an unhealthy diet, tobacco use, harmful alcohol use and poor oral hygiene, and social determinants. 
+
+Globally, most children have signs of gingivitis and, among adults, the initial stages of periodontal diseases are prevalent.In many developing countries, access to oral health services is limited and teeth are often left untreated or are extracted because of pain or discomfort. Throughout the world, losing teeth is still seen as a natural consequence of ageing.
+ 
+The greatest burden of all diseases is on the disadvantaged and socially marginalized. A major benefit of the common risk factor approach is the focus on improving health conditions for the whole population as well as for high risk groups; thereby reducing inequities.
+
+It’s our goal to educate adults and children in schools about the causes of oral diseases and encourage people to maintain consistent dental hygiene by providing them with the necessary tools.
+ 
+Grace for Impact’s important dental health work is made possible by our generous donors and partners- please make a generous gift TODAY!
+
+`,
+    memberId: "3",
   },
   // Add more sections with memberId and videoId for each board member
 ];
