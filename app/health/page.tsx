@@ -1,27 +1,18 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import Health from "@/components/Health/Health";
 import HealthVidGallery from "@/components/Health/HealthGallery";
-import HealthOne from "@/components/Health/HealthOne";
 import HealthThree from "@/components/Health/HealthThree";
 import HealthTwo from "@/components/Health/HealthTwo";
-import Team from "@/components/Team/Team";
-import OurVision from "@/components/Vision/Vision";
-import VisionOne from "@/components/Vision/VisionOne";
-import VisionStats from "@/components/Vision/VisionStats";
-import VisionThree from "@/components/Vision/VisionThree";
-import VisionTwo from "@/components/Vision/VisionTwo";
 import WhoWeAre from "@/components/WhoWeAre";
 
 
-const Vision = () => {
+const HealthPage = () => {
   return (
     <>
-      <WhoWeAre title={""} description={""} />
+      <WhoWeAre title={"GENERAL HEALTH"} description={"Over 400 million people do not have access to essential health services and people across at least 37 low- and middle-income countries are pushed further into extreme poverty (earning less than $1.25/day) because of the lack of healthcare. The world’s most disadvantaged people are consistently missing out on even the most basic services which poses as a major threat to the goal of eliminating extreme poverty."} />
       <HealthThree />
       <HealthTwo />
-      <HealthVidGallery />
+      {/* <HealthVidGallery /> */}
     </>
   );
 };
 
-export default Vision;
+export default HealthPage;

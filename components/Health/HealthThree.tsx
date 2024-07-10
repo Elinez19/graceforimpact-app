@@ -4,7 +4,7 @@ import ModalVideo from "react-modal-video";
 import Image from "next/image";
 import Link from "next/link";
 
-interface AgricultureData {
+interface HealthData {
   imgSrc: string;
   videoId: string;
   title: string;
@@ -12,16 +12,35 @@ interface AgricultureData {
   memberId: string;
 }
 
-const sections: AgricultureData[] = [
+const sections: HealthData[] = [
   {
     imgSrc: "/images/board/board-img-5.svg",
     videoId: "L61p2uyiMSo",
-    title: "Our Commitment to Support Changemakers",
-    description:
-      "GFI has made a commitment to empower and support new generations of leaders who will shape the communities we all want to live in – young leaders who grow into thriving adults and will influence systems change, bridge social divides and give back. Through this collective effort, we can engage more young people and deepen their impact based on the needs and opportunities in their individual communities.",
+    title: "GENERAL HEALTH",
+    description: `Over 400 million people do not have access to essential health services and people across at least 37 low- and middle-income countries are pushed further into extreme poverty (earning less than $1.25/day) because of the lack of healthcare. 
+      
+      The world’s most disadvantaged people are consistently missing out on even the most basic services which poses as a major threat to the goal of eliminating extreme poverty.
+      
+      Every year, over 13 million children under the age of 5 years die from illnesses which could have been avoided or treated.
+
+       The poorest populations are most at risk of food shortage, lack of drinking water, and of a proper sanitation system. 
+
+       Sub-Saharan Africa and South Asia are the most affected by this issue. Just five countries; India, Nigeria, Democratic Republic of Congo, Pakistan and Ethiopia account for over half of children’s deaths worldwide.  
+       
+       This represents over 6 million child deaths per year.
+      Grace for Impact is working to reduce these numbers because even one child death is one too many. Please help us continue our important work, give TODAY!
+      `,
     memberId: "1",
   },
-
+  {
+    imgSrc: "/images/board/board-img-5.svg",
+    videoId: "L61p2uyiMSo",
+    title: "GENERAL HEALTH",
+    description: `Over 400 million people do not have access to essential health services and people across at least 37 low- and middle-income countries are pushed further into extreme poverty (earning less than $1.25/day) because of the lack of healthcare. 
+      
+      The world’s most disadvantaged people are consistently missing out on even the most basic services which poses as a major threat to the goal of eliminating extreme poverty.`,
+    memberId: "2",
+  },
   // Add more sections with memberId and videoId for each board member
 ];
 
@@ -45,56 +64,30 @@ const HealthThree = () => {
         </p>
       </div>
       {sections.map((section, index) => (
-        <div key={index} className="relative">
-          <div
-            className={`max-w-7xl mx-auto px-6 lg:px-8 ${
-              index % 2 === 0 ? "lg:grid-cols-2" : "lg:grid-cols-2-reverse"
-            } lg:grid lg:gap-24 bg-gray-100 border border-gray-300 rounded-lg`}>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="relative border border-gray-300 rounded-lg overflow-hidden">
-                <Image
-                  src={section.imgSrc}
-                  alt={section.title}
-                  width={847}
-                  height={786}
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <button
-                    aria-label="video play button"
-                    onClick={() => handleOpenModal(section.videoId)}
-                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-purple transition hover:bg-opacity-100">
-                    <svg
-                      width="16"
-                      height="18"
-                      viewBox="0 0 16 18"
-                      className="fill-current">
-                      <path d="M15.5 8.13397C16.1667 8.51888 16.1667 9.48112 15.5 9.86602L2 17.6603C1.33333 18.0452 0.499999 17.564 0.499999 16.7942L0.5 1.20577C0.5 0.43597 1.33333 -0.0451549 2 0.339745L15.5 8.13397Z" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="px-6 lg:py-16 lg:px-0">
-              <div className="p-6">
-                <h2 className="text-3xl font-bold tracking-tight text-purple">
-                  {section.title}
-                </h2>
-                <div className="mt-2 -ml-72 flex justify-center">
-                  <span className="inline-block h-2 w-30 rounded-full bg-orange"></span>
-                </div>
-                <p className="mt-4 text-lg text-gray-700">
-                  {section.description}
-                </p>
-                <div className="mt-6">
-                  <Link
-                    href="/blog/blog-details"
-                    className="inline-block bg-purple px-6 py-2 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple hover:bg-purple/95 hover:ring-purple"
-                    passHref>
-                    Learn More
-                  </Link>
-                </div>
-              </div>
+        <div key={index} className="relative flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0 lg:space-x-6 bg-gray-100 border border-gray-300 rounded-lg py-6 px-6">
+          <div className={`flex-1 ${index % 2 === 0 ? 'order-1 lg:order-2' : 'order-1 lg:order-1'}`}>
+            <Image
+              src={section.imgSrc}
+              alt={section.title}
+              width={847}
+              height={786}
+              className="object-cover rounded-lg"
+            />
+          </div>
+          <div className={`flex-1 ${index % 2 === 0 ? 'order-2 lg:order-1' : 'order-2 lg:order-2'}`}>
+            <h2 className="text-3xl font-bold tracking-tight text-purple">
+              {section.title}
+            </h2>
+            <p className="mt-4 text-lg text-gray-700 whitespace-pre-line">
+              {section.description}
+            </p>
+            <div className="mt-6">
+              <Link
+                href="/blog/blog-details"
+                className="inline-block bg-purple px-6 py-2 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple hover:bg-purple/95 hover:ring-purple"
+                passHref>
+                Learn More
+              </Link>
             </div>
           </div>
         </div>

@@ -6,16 +6,9 @@ const Education = () => {
     <div className="py-12">
       <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="mb-12 space-y-2 ml-15">
-          <h2 className="text-xl text-purple dark:text-white">
-            AREA OF IMPACT <br />
-            <span className="text-3xl font-bold text-red-700 md:text-4xl">
-              Education
-            </span>
+          <h2 className="text-4xl text-purple dark:text-white">
+          Our Education and Capacity Development Activities include:
           </h2>
-          <div className="flex  mb-6 -ml-0">
-            <span className="inline-block h-2 w-40 rounded-full bg-orange lg:hidden"></span>
-            <span className="hidden lg:inline-block h-2 w-40 rounded-full bg-gradient-to-r from-orange via-red-700 to-orange"></span>
-          </div>
           <p className="lg:w-6/12 text-gray-600 dark:text-gray-300 text-left">
             Empowering young people to reach their full potential.
           </p>
