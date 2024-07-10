@@ -95,14 +95,14 @@ const menuData: Menu[] = [
       },
       {
         id: 32,
-        title: "Mission Outreach",
-        path: "/blog",
+        title: "Give",
+        path: "/give",
         newTab: false,
       },
       {
         id: 33,
-        title: "Drive Change in your Community",
-        path: "/blog",
+        title: "FundRaise",
+        path: "/fundraise",
         newTab: false,
       },
       {
