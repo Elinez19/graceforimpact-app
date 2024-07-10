@@ -89,7 +89,7 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 31,
-        title: "Participate in Program",
+        title: "Get Involved",
         path: "/getinvolved",
         newTab: false,
       },
