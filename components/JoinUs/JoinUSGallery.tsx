@@ -10,9 +10,9 @@ const descriptions = [
   "Our day and overnight camps empowered kids by building lifelong skills, confidence and friendships.",
 ];
 
-const MissionGallery = () => {
+const JoinUsGallery = () => {
   return (
-    <div id="MissionGallery-section">
+    <div id="JoinUsGallery-section">
       <div className="mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 mt-20 md:pt-24">
         <div className="text-center">
           <Fade
@@ -22,7 +22,7 @@ const MissionGallery = () => {
             damping={1e-1}
             triggerOnce={true}>
             <h2 className="text-pink-700 text-lg font-normal mb-3 tracking-widest uppercase ls-51">
-              Our Mission Gallery
+              Our Field Gallery
             </h2>
           </Fade>
           <Fade
@@ -94,4 +94,4 @@ const MissionGallery = () => {
   );
 };
 
-export default MissionGallery;
+export default JoinUsGallery;

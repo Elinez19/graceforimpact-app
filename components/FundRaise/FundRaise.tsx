@@ -81,16 +81,17 @@ const links = [
 
 const FundRaise = () => {
   return (
-    <div className="container relative z-40 mx-auto mt-12">
+    <div className="container relative z-40 mx-auto mt-12 px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-extrabold text-gray-900">Discover Ways you can help at Grace For Impact
-         </h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Discover Ways You Can Help at Grace For Impact</h2>
         <p className="mt-2 text-lg text-gray-600">
-        GFI has so much to offer. Whether it is becoming a member, <br /> partnership, joining a team or volunteering as a board member, everyone can find a way to be involved.</p>
+          GFI has so much to offer. Whether it is becoming a member, <br className="hidden sm:block" />
+          partnership, joining a team or volunteering as a board member, everyone can find a way to be involved.
+        </p>
       </div>
       <div className="flex flex-wrap justify-center mx-auto lg:w-full md:w-5/6 xl:shadow-small-blue">
         {links.map((link, index) => (
-          <Link href={link.href} key={index} className="block w-1/2 py-10 text-center border lg:w-1/4">
+          <Link href={link.href} key={index} className="block w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py-10 text-center border">
             <div>
               <Image src={link.imgSrc} alt={link.label} width={64} height={64} className="block mx-auto" />
               <p className="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
