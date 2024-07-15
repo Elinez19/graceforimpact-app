@@ -100,7 +100,7 @@ const StudentAmbassadorForm = () => {
           ></textarea>
         </div>
         <div className="text-center">
-          <button className="cursor-pointer rounded-lg bg-orange-500 px-8 py-5 text-sm font-semibold text-white hover:bg-orange">Submit Application</button>
+          <button className="cursor-pointer rounded-lg bg-orange px-8 py-5 text-sm font-semibold text-white hover:bg-orange">Submit Application</button>
         </div>
       </div>
     </div>
