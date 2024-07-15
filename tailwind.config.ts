@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       colors: {
         current: "currentColor",
-        purple: "#9039F5",
+        purple: "#62376C",
         orange: "#F47A14",
         green: "#6B9F36",
         cyan: "#26C6DA",
