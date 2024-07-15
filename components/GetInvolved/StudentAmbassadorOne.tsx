@@ -14,7 +14,7 @@ interface GetInvolvedData {
 
 const sections: GetInvolvedData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img13.jpg",
     videoId: "L61p2uyiMSo",
     title: "Become A Student Ambassador",
     description: `Our Student Ambassador program is designed to provide students with the opportunity to gain and utilize valuable leadership skills. Grace for Impact will provide you with all the necessary tools to fulfill your role as a student ambassador. You will receive an ambassador kit that includes, t-shirts, brochures, event guides, marketing materials, and support to get you started.
@@ -22,7 +22,7 @@ const sections: GetInvolvedData[] = [
     memberId: "1",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img12.jpg",
     videoId: "L61p2uyiMSo",
     title: "Become A Student Ambassador",
     description: `As a Student Ambassador, you can work as an individual and collaborate with organizations that you’re already a part of to host fundraising events and educate others about the needs surrounding Health, Education, and Capacity Development.
