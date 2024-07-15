@@ -14,7 +14,7 @@ interface GetInvolvedData {
 
 const sections: GetInvolvedData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img9.jpg",
     videoId: "L61p2uyiMSo",
     title: "JOIN US IN THE FIELD",
     description: `Embark on a journey of incredible personal and professional growth working side-by-side with our team and other key stakeholders in the field. Every year, hundreds of volunteer professionals make the decision to join us in the field and we hope you will too!
@@ -22,7 +22,7 @@ const sections: GetInvolvedData[] = [
     memberId: "1",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img10.jpg",
     videoId: "L61p2uyiMSo",
     title: "WE NEED YOU!",
     description: `That’s right, YOU! Grace is in need of a diverse pool of volunteers to join us in the field including medical doctors, nurses, physician’s assistant’s, dentists, ophthalmologists, counselors, surgeons, administrators, operations managers, logisticians and more!
@@ -30,7 +30,7 @@ const sections: GetInvolvedData[] = [
     memberId: "1",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img21.jpg",
     videoId: "L61p2uyiMSo",
     title: "WHY VOLUNTEER WITH GRACE?",
     description: `That’s right, YOU! Grace is in need of a diverse pool of volunteers to join us in the field including medical doctors, nurses, physician’s assistant’s, dentists, ophthalmologists, counselors, surgeons, administrators, operations managers, logisticians and more!
@@ -38,7 +38,7 @@ const sections: GetInvolvedData[] = [
     memberId: "3",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img13.jpg",
     videoId: "L61p2uyiMSo",
     title: "Doing good is good for you!",
     description: `Volunteering with Grace for Impact will be an amazing and rewarding experience to give back and help those in need. Volunteering abroad is a mind-opening experience that exposes one to other cultures, languages and ways of life. By experiencing day-to-day existence in an area of great need you will leave a better person- feeling humbled, grateful and appreciated!
@@ -46,7 +46,7 @@ const sections: GetInvolvedData[] = [
     memberId: "4",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img11.jpg",
     videoId: "L61p2uyiMSo",
     title: "WHAT TO EXPECT?",
     description: `As a Grace for Impact Volunteer, you can expect your time in the field to be one of the most rewarding and challenging experiences of your career! You will be provided with meaningful work and the opportunity to make a difference in the lives of the poorest of the poor and underserved.  You will be treated as a professional and we’ll be sure we capitalize on your areas of expertise and interest.
@@ -57,7 +57,7 @@ const sections: GetInvolvedData[] = [
     memberId: "5",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img14.jpg",
     videoId: "L61p2uyiMSo",
     title: "WHAT TO EXPECT?",
     description: `Once in the field, you will work in mostly remote areas with limited conveniences and creature comforts but that will be offset by the grateful smiles of our patients and beneficiaries. If it’s your first trip to a developing country you will be provided an orientation to help you prepare.
