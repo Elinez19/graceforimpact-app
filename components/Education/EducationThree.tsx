@@ -14,7 +14,7 @@ interface HealthData {
 
 const sections: HealthData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img17.jpg",
     videoId: "L61p2uyiMSo",
     title: "K-12 Education Support",
     description: `General education support to rural k-12 schools and orphanages, providing scholarships for school fees, uniforms and supplies
@@ -22,7 +22,7 @@ const sections: HealthData[] = [
     memberId: "1",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img21.jpg",
     videoId: "L61p2uyiMSo",
     title: "Education Infrastructure",
     description: `Building Schools and learning centers to provide the necessary Infrastructure for the provision of high quality education
@@ -30,14 +30,14 @@ const sections: HealthData[] = [
     memberId: "2",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img18.jpg",
     videoId: "L61p2uyiMSo",
     title: "Scholarships and Fellowships",
     description: `Higher education scholarships and Fellowships provided to the most promising student interested in health, education and other closely related fields.
 `,
     memberId: "3",
   },
-  // Add more sections with memberId and videoId for each board member
+  // Add more sections with memberId and videoId for each Gallery member
 ];
 
 const EducationThree = () => {

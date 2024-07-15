@@ -7,21 +7,21 @@ const EducationTwo = () => {
       title: "K-12 Education Support",
       description:
         "General education support to rural k-12 schools and orphanages, providing scholarships for school fees, uniforms and supplies",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc:"/images/Gallery/graceforimpact-img15.jpg",
       link: "/blog/blog-details",
     },
     {
       title: "Education Infrastructure",
       description:
         "Building Schools and learning centers to provide the necessary Infrastructure for the provision of high quality education",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc:"/images/Gallery/graceforimpact-img10.jpg",
       link: "/blog/blog-details",
     },
     {
       title: "Scholarships and Fellowships",
       description:
         "Higher education scholarships and Fellowships provided to the most promising student interested in health, education and other closely related fields",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc:"/images/Gallery/graceforimpact-img13.jpg",
       link: "/blog/blog-details",
     },
   ];

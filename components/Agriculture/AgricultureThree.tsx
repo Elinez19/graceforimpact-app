@@ -14,7 +14,7 @@ interface AgricultureData {
 
 const sections: AgricultureData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img19.jpg",
     videoId: "L61p2uyiMSo",
     title: "GFI Small Scale Farmer Empowerment. ",
     description:

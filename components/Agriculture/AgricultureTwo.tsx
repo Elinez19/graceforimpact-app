@@ -7,21 +7,21 @@ const AgricultureTwo = () => {
       title: "Rural Agricultural Transformation Program",
       description:
         "Program on Agricultural and Rural Transformation for Nutrition, Entrepreneurship, and Resilience",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc: "/images/Gallery/graceforimpact-img.jpg",
       link: "/blog/blog-details",
     },
     {
       title: "Agricultural Vocational Training",
       description:
         "Rural Youth Vocational Training, Employment and Entrepreneurship Support Project",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc: "/images/Gallery/graceforimpact-img1.jpg",
       link: "/blog/blog-details",
     },
     {
       title: "Agricultural Trade Project",
       description:
         "Agriculture Services Programme for an Inclusive Rural Economy and Agricultural Trade",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc: "/images/Gallery/graceforimpact-img2.jpg",
       link: "/blog/blog-details",
     },
   ];
