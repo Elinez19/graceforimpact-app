@@ -18,7 +18,7 @@ const Education = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/board/board-img-5.svg"
+                src="/images/Gallery/graceforimpact-img.jpg"
                 alt="art cover"
                 loading="lazy"
                 width={1000}
@@ -42,7 +42,7 @@ const Education = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/board/board-img-5.svg"
+                src="/images/Gallery/graceforimpact-img2.jpg"
                 alt="art cover"
                 loading="lazy"
                 width={1000}
@@ -66,7 +66,7 @@ const Education = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/board/board-img-5.svg"
+                src="/images/Gallery/graceforimpact-img4.jpg"
                 alt="art cover"
                 loading="lazy"
                 width={1000}

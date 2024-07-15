@@ -30,21 +30,21 @@ const moreTools = [
 
 const healthActivities = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img.jpg",
     title: "General Health",
     description:
       "General screening and referral services for the rural poor including malaria, HIV, Vision, Blood Pressure, Diabetes and more",
     link: "/blog/blog-details",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img1.jpg",
     title: "Eye Health",
     description:
       "Vision services with optometrists and ophthalmologists including glasses, cataract screening and cataract surgery",
     link: "/blog/blog-details",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img2.jpg",
     title: "Dental Health",
     description:
       "Dental screening and treatment including cavities, extractions, abscesses, surgery and other oral health maladies",
