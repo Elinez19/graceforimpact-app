@@ -38,7 +38,7 @@ In his free time he enjoys spending time with his lovely wife, Rachel as well as
   {
     imgSrc: "/images/board/board-img-2.svg",
     title: "DIRECTOR",
-    name: "Tola Elewa",
+    name: "TOLA ELEWA",
     description: `Tola Elewa has worked in the UK civil service for over 25 years. She joined the organisation in 2009, and later got it registered in the UK and became a UK trustee
 Prior to her involvement with GFI, she worked with Light of Hope International, a Sierra Leone based charity focusing on Women Empowerment and the establishment of schools in rural communities.
 
@@ -52,48 +52,49 @@ In recognition of her work with GFI, Tola was honored with the "People Engagemen
 When not working or volunteering Tola finds joy in staying at home and exploring the culinary world, particularly experimenting with creative vegan recipes.
 
 `,
-    memberId: "2",
+    memberId: "3",
 
   },
   {
     imgSrc: "/images/board/board-member-mrs-dele.jpg",
-    title: "Program Director,",
-    name: "Dele Nweneka",
+    title: "PROGRAM DIRECTOR",
+    name: "DELE NWENEKA",
     description: `Dele Nweneka is a development expert with over 20 years of experience in community development, program design, teaching, and capacity building in five countries.
 
 A resilient and  compassionate leader with remarkable problem solving, communication and motivational skills. As a sociologist, Dele is passionate about transforming lives and working collaboratively with other partners locally and internationally to drive lasting change in the communities.  She holds a master's degree in education among other non profit management training and is also a Fellow of the Institute of Strategic Management, Nigeria..
 `,
-  memberId: "3",
+  memberId: "4",
   },
   {
     imgSrc: "/images/board/board-member-mrs-michele.jpg",
     title: "BOARD MEMBER",
-    name: "Michelle Adeniyi",
+    name: "MICHELLE ADENIYI",
     description: `Michelle is a Senior Program Analyst for Crown Family Philanthropies’ global health portfolio and supports partnerships focused on community-based solutions that increase access to healthcare for all in Sub-Saharan Africa. Michelle is passionate about health equity and the intersection of health and human rights in low resource settings.
  
 Prior to joining CFP, Michelle trained at the Icahn School of Medicine at Mount Sinai as an Environmental and Public Health trainee researching the relationship between environmental justice and global health disparities. She is also a former consultant for the United Nations Development Program in The Gambia, where she worked with stakeholders facilitating transitional justice to report findings on human health violations committed towards people living with HIV and AIDS during the country’s former administration.
  
 Michelle holds a BA in Human Biology from Indiana University and a Masters in Global Health from the University of Notre Dame.
 `,
-    memberId: "4",
+    memberId: "5",
 
   },
   {
-    imgSrc: "/images/board/board-img-2.svg",
-    title: "Medical Director for the Board",
+    imgSrc: "/images/board/ERIC-AIGBEDION.png",
+    title: "MEDICAL DIRECTOR FOR THE BOARD",
     name: "ERIC AIGBEDION",
     description: `Dr. Eric Oseikhuemen Aigbedion MD, MBBS, and BS. He has 22 years of experience and practices in Internal Medicine and Emergency Medicine. Dr. Aigbedion attended medical school at University of Lagos College of Medicine and graduated in 1987 having 26 years experience. Additional Internal Medicine training was conducted at Brookdale University Hospital and Medical Center. He is licensed to practice in Virginia and Maryland.
 Eric is passionate about giving back and has been involved in a variety of humanitarian and philanthropic initiatives focused on healthcare and poverty alleviation.`,
-    memberId: "8",
+    memberId: "6",
   },
-//   {
-//     imgSrc: "/images/board/board-img-2.svg",
-//     title: "DIRECTOR",
-//     name: "EDDY EFEURHOBO",
-//     description: `Mr. Eddy Efeurhobo has more than 20 years of healthcare experience. He and his wife, Anne, own a home healthcare agency in Ohio. The Efeurhobo family are passionate about giving back and are involved in a variety of philanthropic and humanitarian initiatives here in the states and abroad.
-// In his free time, Mr. Efeurhobo enjoys spending time with his family, traveling and volunteering.`,
-//     memberId: "10",
-//   },
+  {
+    imgSrc: "/images/board/ANDREW-AWONIYI.png",
+    title: "BOARD TREASURER",
+    name: "Dr. Andrew Awoniyi",
+    description: `Dr .Andrew Awoniyi is an experienced healthcare professional, based in the Dallas-Fort Worth area in Texas. Dr. Awoniyi currently works in healthcare technology as the Director of Research and Education with Axxess. Andrew has experience in chronic disease management and the utilization of health informational technology as a tool for improving the delivery of healthcare.
+
+When not at the office, Dr .Awoniyi can be found playing racquetball, hiking, gardening and cooking. He and his family reside in the Dallas area.`,
+    memberId: "7",
+  },
 //   {
 //     imgSrc: "/images/board/board-img-2.svg",
 //     title: "DIRECTOR",

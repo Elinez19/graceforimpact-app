@@ -16,9 +16,9 @@ const sections: AgricultureData[] = [
   {
     imgSrc: "/images/board/board-img-5.svg",
     videoId: "L61p2uyiMSo",
-    title: "Our Commitment to Support Changemakers",
+    title: "GFI Small Scale Farmer Empowerment. ",
     description:
-      "GFI has made a commitment to empower and support new generations of leaders who will shape the communities we all want to live in – young leaders who grow into thriving adults and will influence systems change, bridge social divides and give back. Through this collective effort, we can engage more young people and deepen their impact based on the needs and opportunities in their individual communities.",
+      `GFI Small Scale Farmer Empowerment. Small-scale farmers are the backbone of global agriculture, yet they often lack access to resources and support. At GFI, we empower these farmers by providing training in sustainable farming practices, access to high-quality seeds and tools, and market linkages to ensure fair prices for their produce. Our programs focus on building resilience, increasing productivity, and improving livelihoods. We promote community-based solutions and seek ways to help small-scale farmers thrive, ensuring food security and contributing to the overall economic development of rural areas. Join us in supporting the farmers who feed the world.`,
     memberId: "1",
   },
 
@@ -41,7 +41,7 @@ const AgricultureThree = () => {
           Agriculture Empowerment Programs
         </h1>
         <p className="mt-2 text-lg text-purple">
-          Empowering young people to reach their full potential.
+        GFI Small Scale Farmer Empowerment. 
         </p>
       </div>
       {sections.map((section, index) => (
