@@ -19,7 +19,7 @@ module.exports = {
         current: "currentColor",
         purple: "#62345B",
         orange: "#EF7622",
-        green: "#6B9F36",
+        green: "#AFBD77",
         cyan: "#26C6DA",
         'grey200' : "#c7d2fe",
         transparent: "transparent",
