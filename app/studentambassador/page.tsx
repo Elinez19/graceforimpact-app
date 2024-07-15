@@ -1,5 +1,6 @@
 import StudentAmbassador from "@/components/GetInvolved/StudentAmbassador";
 import StudentAmbassadorOne from "@/components/GetInvolved/StudentAmbassadorOne";
+import StudentAmbassadorForm from "@/components/GetInvolved/StudentAmbassadorForm";
 import StudentAmbassadorTwo from "@/components/GetInvolved/StudentAmbassadorTwo";
 import WhoWeAre from "@/components/WhoWeAre";
 
@@ -10,6 +11,7 @@ const StudentAmbassadorPage = () => {
       <StudentAmbassador />
       <StudentAmbassadorOne />
       <StudentAmbassadorTwo />
+      <StudentAmbassadorForm/>
       {/* <GetInvolvedGallery /> */}
     </>
   );
