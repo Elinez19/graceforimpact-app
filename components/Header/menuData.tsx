@@ -125,61 +125,61 @@ const menuData: Menu[] = [
       },
     ],
   },
-  {
-    id: 4,
-    title: "Resources",
-    newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "Impact News and Events",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Mission Outreach",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Impact Data ",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 44,
-        title: "Newsletter",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 45,
-        title: "Upcoming Events",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 46,
-        title: "Gallery",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 47,
-        title: "Volunteer Engagement",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 48,
-        title: "Impact Mission Kits",
-        path: "/blog",
-        newTab: false,
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Resources",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 41,
+  //       title: "Impact News and Events",
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 42,
+  //       title: "Mission Outreach",
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 43,
+  //       title: "Impact Data ",
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 44,
+  //       title: "Newsletter",
+  //       path: "/signup",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 45,
+  //       title: "Upcoming Events",
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 46,
+  //       title: "Gallery",
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 47,
+  //       title: "Volunteer Engagement",
+  //       path: "/signup",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 48,
+  //       title: "Impact Mission Kits",
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
 ];
 
 export default menuData;

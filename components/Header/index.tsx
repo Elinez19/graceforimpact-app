@@ -69,11 +69,11 @@ const Header = () => {
               </span>
               <span className="du-block absolute right-0 h-full w-full rotate-45">
                 <span
-                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out ${
+                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-purple delay-300 duration-200 ease-in-out ${
                     !navigationOpen ? "!h-0 delay-[0]" : "h-full"
                   }`}></span>
                 <span
-                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-black duration-200 ease-in-out ${
+                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-purple duration-200 ease-in-out ${
                     !navigationOpen ? "!h-0 delay-200" : "h-0.5"
                   }`}></span>
               </span>
@@ -86,7 +86,7 @@ const Header = () => {
         <div
           className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
-            "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-black  p-7.5 shadow-solid-5"
+            "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-purple  p-7.5 shadow-solid-5"
           }`}>
           <nav>
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
@@ -109,8 +109,8 @@ const Header = () => {
                       </button>
 
                       <ul
-                        className={`bg-black dropdown ${
-                          dropdownToggler ? "flex bg-black" : ""
+                        className={`bg-purple dropdown ${
+                          dropdownToggler ? "flex bg-purple" : ""
                         }`}>
                         {menuItem.submenu.map((item, key) => (
                           <li
