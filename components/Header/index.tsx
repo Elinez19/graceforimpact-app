@@ -146,7 +146,7 @@ const Header = () => {
             </Link>
 
             <Link
-              href="/getinvolved"
+              href="https://www.zeffy.com/donation-form/99592ceb-8dd2-41ab-9bd4-705723eed299"
               className="flex items-center justify-center rounded-full bg-purple px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-purple/80">
               Donate
             </Link>
