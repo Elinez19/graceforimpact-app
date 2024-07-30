@@ -58,7 +58,7 @@ const ImpactStat = () => {
     <div className="bg-white relative" id="project">
       <div className="mx-auto max-w-7xl py-20 px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl sm:text-6xl font-semibold text-center my-10 bg-gradient-to-r from-orange via-red-500 to-purple bg-clip-text text-transparent">
-          Our Impact Stats
+          Our Impact Stat
         </h2>
         <div className="relative h-96 lg:h-[600px] rounded-lg shadow-lg overflow-hidden">
           <Image
