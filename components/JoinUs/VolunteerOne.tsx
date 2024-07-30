@@ -14,7 +14,7 @@ interface GetInvolvedData {
 
 const sections: GetInvolvedData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img11.jpg",
     videoId: "L61p2uyiMSo",
     title: "VOLUNTEER",
     description: `Grace for Impact believes that access to quality healthcare and education are key and critical to breaking the vicious cycle of poverty and that every person should have the opportunity to maximize their potential.
@@ -22,7 +22,7 @@ const sections: GetInvolvedData[] = [
     memberId: "1",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/graceforimpact-img9.jpg",
     videoId: "L61p2uyiMSo",
     title: "VOLUNTEER",
     description: `And that’s where YOU come in! Grace is able to change lives thanks to the valuable contributions from our volunteer professionals, who are dedicated to doing good and using their skills, experience, and expertise to make an impact. Grace offers meaningful opportunities for volunteer medical professionals, administrators, educators and more- see the below listing of our most urgently needed areas of expertise!
