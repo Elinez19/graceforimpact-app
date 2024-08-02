@@ -9,15 +9,15 @@ interface WhoWeAreCardsProps {
 const cardsData: WhoWeAreCardsProps[] = [
   {
     title: "Our Mission",
-    description: "Grace For Impact - GFI is a non-profit health care organization with their headquarter office in Dallas, Texas, USA. The organization is also registered as a non-governmental organization in the United Kingdom, Ghana, and Nigeria. Grace",
+    description: "Grace For Impact  is a non-profit health care organization with its headquarter office in Dallas, Texas, USA. The organization is also registered as a non-governmental organization in the United Kingdom, Ghana, and Nigeria. Grace",
   },
   {
     title: "Our Vision",
-    description: "Grace For Impact - GFI aims to provide accessible and affordable health care to underserved communities. Our vision is to create a world where health care is a right, not a privilege.",
+    description: "Grace For Impact  aims to provide accessible and affordable health care to underserved communities. Our vision is to create a world where health care is a right, not a privilege.",
   },
   {
     title: "Our Impact",
-    description: "Grace For Impact - GFI has impacted thousands of lives through our health care initiatives. We have provided medical assistance, health education, and support to communities in need.",
+    description: "Grace For Impact  has impacted thousands of lives through our health care initiatives. We have provided medical assistance, health education, and support to communities in need.",
   },
 ];
 
@@ -33,8 +33,8 @@ const WhoWeAreCards: React.FC = () => {
           </div>
           <div className="md:w-1/2 mt-4 md:mt-0">
             <p className="text-sm text-gray-900">
-              Grace For Impact - GFI is a non-profit health care organization
-              with their headquarter office in Dallas, Texas, USA.
+              Grace For Impact is a non-profit health care organization
+              with its headquarter office in Dallas, Texas, USA.
             </p>
           </div>
         </div>

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import Image from "next/image";
-import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
 
 interface HistoryCardsData {
   imgSrc: string;
@@ -11,6 +11,7 @@ interface HistoryCardsData {
   title: string;
   description: string;
   memberId: string;
+  gallery: string[];
 }
 
 const sections: HistoryCardsData[] = [
@@ -19,8 +20,13 @@ const sections: HistoryCardsData[] = [
     videoId: "L61p2uyiMSo",
     title: "2006-Founding of Grace for Impact",
     description:
-      "Grace for Impact was founded as a 501(c)3 non-profit international organization in the United States. Active implementation began in the areas of health and education.",
+      "Grace for Impact was founded as a non-profit international organization in the United States. Active implementation began in the areas of health and education.",
     memberId: "1",
+    gallery: [
+      "/images/Gallery/grace-gallery-1.svg",
+      "/images/Gallery/grace-gallery-2.svg",
+      "/images/Gallery/grace-gallery-3.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-5.svg",
@@ -29,6 +35,11 @@ const sections: HistoryCardsData[] = [
     description:
       "GFI introduced Dental Care and began collaborating with the Nigerian Government and Ministry of Health.",
     memberId: "2",
+    gallery: [
+      "/images/Gallery/grace-gallery-4.svg",
+      "/images/Gallery/grace-gallery-5.svg",
+      "/images/Gallery/grace-gallery-6.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-4.svg",
@@ -37,6 +48,11 @@ const sections: HistoryCardsData[] = [
     description:
       "International Medical Volunteers from the United States and the United Kingdom joined the team. Ophthalmology was introduced as a service.",
     memberId: "3",
+    gallery: [
+      "/images/Gallery/grace-gallery-1.svg",
+      "/images/Gallery/grace-gallery-2.svg",
+      "/images/Gallery/grace-gallery-3.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-7.svg",
@@ -45,6 +61,11 @@ const sections: HistoryCardsData[] = [
     description:
       "Grace For Impact began providing training to in–country volunteers and medical professionals for enhanced sustainability and local impact.",
     memberId: "4",
+    gallery: [
+      "/images/Gallery/grace-gallery-4.svg",
+      "/images/Gallery/grace-gallery-5.svg",
+      "/images/Gallery/grace-gallery-6.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-7.svg",
@@ -53,6 +74,11 @@ const sections: HistoryCardsData[] = [
     description:
       "Cataract Surgery was introduced as a service. Partnerships were made with Christian Medical Dental Associations (CMDA).",
     memberId: "5",
+    gallery: [
+      "/images/Gallery/grace-gallery-1.svg",
+      "/images/Gallery/grace-gallery-2.svg",
+      "/images/Gallery/grace-gallery-3.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-1.svg",
@@ -61,6 +87,11 @@ const sections: HistoryCardsData[] = [
     description:
       "Catholic Charities donated $1.5 million worth of medical supplies and pharmaceuticals. GFI formed partnerships with Springtime Foundation.",
     memberId: "6",
+    gallery: [
+      "/images/Gallery/grace-gallery-4.svg",
+      "/images/Gallery/grace-gallery-5.svg",
+      "/images/Gallery/grace-gallery-6.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-2.svg",
@@ -69,6 +100,11 @@ const sections: HistoryCardsData[] = [
     description:
       "GFI Collaborated with National Youth Core to expand the volunteer base by more than double. Our CEO was recruited.",
     memberId: "6",
+    gallery: [
+      "/images/Gallery/grace-gallery-1.svg",
+      "/images/Gallery/grace-gallery-2.svg",
+      "/images/Gallery/grace-gallery-3.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-3.svg",
@@ -76,6 +112,11 @@ const sections: HistoryCardsData[] = [
     title: "2017-Ghana added",
     description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "7",
+    gallery: [
+      "/images/Gallery/grace-gallery-4.svg",
+      "/images/Gallery/grace-gallery-5.svg",
+      "/images/Gallery/grace-gallery-6.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-4.svg",
@@ -83,13 +124,35 @@ const sections: HistoryCardsData[] = [
     title: "2018-Madagascar, Kenya and Vietnam added",
     description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "8",
+    gallery: [
+      "/images/Gallery/grace-gallery-1.svg",
+      "/images/Gallery/grace-gallery-2.svg",
+      "/images/Gallery/grace-gallery-3.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-6.svg",
     videoId: "L61p2uyiMSo",
-    title: "2019-Tanzania and Burkina Faso, Inaugural “Night for Sight Event",
+    title: "2019-Tanzania and Burkina Faso.",
     description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "9",
+    gallery: [
+      "/images/Gallery/grace-gallery-4.svg",
+      "/images/Gallery/grace-gallery-5.svg",
+      "/images/Gallery/grace-gallery-6.svg",
+    ],
+  },
+  {
+    imgSrc: "/images/Gallery/grace-gallery-7.svg",
+    videoId: "L61p2uyiMSo",
+    title: "2019-Inaugural Night for Sight Event",
+    description: "Prioritization of Eye Health and Cataract surgery",
+    memberId: "9",
+    gallery: [
+      "/images/Gallery/grace-gallery-1.svg",
+      "/images/Gallery/grace-gallery-2.svg",
+      "/images/Gallery/grace-gallery-3.svg",
+    ],
   },
   {
     imgSrc: "/images/Gallery/grace-gallery-7.svg",
@@ -97,6 +160,11 @@ const sections: HistoryCardsData[] = [
     title: "2020-Grace Vision Center preparations underway in Lagos, Nigeria",
     description: "Prioritization of Eye Health and Cataract surgery",
     memberId: "9",
+    gallery: [
+      "/images/Gallery/grace-gallery-4.svg",
+      "/images/Gallery/grace-gallery-5.svg",
+      "/images/Gallery/grace-gallery-6.svg",
+    ],
   },
 ];
 
@@ -131,15 +199,6 @@ const HistoryCards = () => {
                   <p className="mt-4 text-lg text-gray-700">
                     {section.description}
                   </p>
-                  <div className="mt-6">
-                    <Link
-                      href="/blog/blog-details"
-                      className="inline-block bg-purple px-6 py-2 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple hover:bg-purple/95 hover:ring-purple"
-                      passHref
-                    >
-                      Learn More
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
@@ -152,23 +211,25 @@ const HistoryCards = () => {
                   height={400}
                   className="object-cover"
                 />
-                {/* <div className="absolute inset-0 flex items-center justify-center">
-                  <button
-                    aria-label="video play button"
-                    onClick={() => handleOpenModal(section.videoId)}
-                    className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white bg-opacity-75 text-purple transition hover:bg-opacity-100"
-                  >
-                    <svg
-                      width="16"
-                      height="18"
-                      viewBox="0 0 16 18"
-                      className="fill-current"
-                    >
-                      <path d="M15.5 8.13397C16.1667 8.51888 16.1667 9.48112 15.5 9.86602L2 17.6603C1.33333 18.0452 0.499999 17.564 0.499999 16.7942L0.5 1.20577C0.5 0.43597 1.33333 -0.0451549 2 0.339745L15.5 8.13397Z" />
-                    </svg>
-                  </button>
-                </div> */}
               </div>
+            </div>
+          </div>
+          <div className="mt-12 px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {section.gallery.map((imgSrc, imgIndex) => (
+                <div key={imgIndex} className="relative group">
+                  <div className="overflow-hidden rounded-3xl transform transition-transform duration-300 group-hover:scale-105">
+                    <Image
+                      src={imgSrc}
+                      alt={`Gallery image ${imgIndex + 1}`}
+                      width={700}
+                      height={900}
+                      className="object-cover h-full w-full"
+                    />
+                    <div className="absolute inset-0 bg-gray-800 opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

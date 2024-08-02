@@ -18,7 +18,7 @@ const Education = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/Gallery/graceforimpact-img.jpg"
+                src="/images/Gallery/grace-education.jpg"
                 alt="art cover"
                 loading="lazy"
                 width={1000}
@@ -28,7 +28,7 @@ const Education = () => {
             </div>
             <div className="mt-6 relative">
               <h3 className="text-2xl font-semibold text-orange dark:text-white">
-                K-12 Education Support
+                Educational Infrastructure Services For Rural People
               </h3>
               <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
                 General education support to rural k-12 schools and orphanages,
@@ -42,7 +42,7 @@ const Education = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/Gallery/graceforimpact-img2.jpg"
+                src="/images/Banner/success-stories1.png"
                 alt="art cover"
                 loading="lazy"
                 width={1000}
@@ -66,7 +66,7 @@ const Education = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/Gallery/graceforimpact-img4.jpg"
+                src="/images/Gallery/grace-education.jpg"
                 alt="art cover"
                 loading="lazy"
                 width={1000}

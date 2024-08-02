@@ -4,17 +4,17 @@ import Link from "next/link";
 const EducationTwo = () => {
   const cardData = [
     {
-      title: "K-12 Education Support",
+      title: "Rural Education Support",
       description:
         "General education support to rural k-12 schools and orphanages, providing scholarships for school fees, uniforms and supplies",
-      imageSrc:"/images/Gallery/graceforimpact-img15.jpg",
+      imageSrc:"/images/Gallery/graceforimpact-img14.jpg",
       link: "/blog/blog-details",
     },
     {
       title: "Education Infrastructure",
       description:
         "Building Schools and learning centers to provide the necessary Infrastructure for the provision of high quality education",
-      imageSrc:"/images/Gallery/graceforimpact-img10.jpg",
+      imageSrc:"/images/Banner/success-stories1.png",
       link: "/blog/blog-details",
     },
     {

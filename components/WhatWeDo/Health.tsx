@@ -37,14 +37,14 @@ const healthActivities = [
     link: "/blog/blog-details",
   },
   {
-    imgSrc: "/images/Gallery/graceforimpact-img1.jpg",
+    imgSrc: "/images/Gallery/grace-eye.jpg",
     title: "Eye Health",
     description:
       "Vision services with optometrists and ophthalmologists including glasses, cataract screening and cataract surgery",
     link: "/blog/blog-details",
   },
   {
-    imgSrc: "/images/Gallery/graceforimpact-img2.jpg",
+    imgSrc: "/images/Gallery/grace-dental.jpg",
     title: "Dental Health",
     description:
       "Dental screening and treatment including cavities, extractions, abscesses, surgery and other oral health maladies",

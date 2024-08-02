@@ -8,31 +8,31 @@ const Banner = () => {
         {
             title: "Grace is Committed to ...",
             description: "Delivering strong value for money to our donors and partners by leveraging donated goods, supplies and equipment as needs are identified. Creating measurable results and lasting impact, providing access to high quality health, education and related services.",
-            imageSrc: "/images/Gallery/grace-gallery-1.svg",
+            imageSrc: "/images/Gallery/grace-partners.jpg",
             imageAlt: "Image 1",
         },
         {
             title: "Grace is passionate about our work ...",
             description:"providing demand driven, scalable and sustainable solutions by engaging and supporting the rural poor through cost-effective health and education solutions to create tangible and lasting impact",
-            imageSrc: "/images/Gallery/grace-gallery-2.svg",
+            imageSrc: "/images/Gallery/grace-rural.jpg",
             imageAlt: "Image 2",
         },
         {
             title: "Grace is dedicated to ...",
-            description: "compassion, dedication, and a sincere holistic concern for the people we serve. We believe that every person should have access to quality health care, education and the opportunity to achieve their full potential regardless of race, religion, age, gender, or origin.",
+            description: "compassionate, sincere, and holistic concern for the people we serve. We believe that every person should have access to quality health care, education and the opportunity to achieve their full potential regardless of race, religion, age, gender, or origin.",
             imageSrc: "/images/Gallery/grace-gallery-3.svg",
             imageAlt: "Image 3",
         },
         {
             title: "The organization is uniquely positioned as it ...",
             description: "collaborates with a large network of dedicated health professionals and partners locally and on the ground in the countries we work  to effectively and efficiently deliver measurable results and a solid value for money to our donors and partners.",
-            imageSrc: "/images/Gallery/grace-gallery-4.svg",
+            imageSrc: "/images/Gallery/graceforimpact-img15.jpg",
             imageAlt: "Image 3",
         },
         {
             title: "We are passionate about the work we do because ...",
             description: "our activities and services can be life-changing– restoring sight with a cataract surgery, providing a wheelchair for someone who previously had to scoot around on the floor and providing access to education for the rural poor. Service to others is a rewarding and meaningful opportunity to make the world a better place- one person at a time.",
-            imageSrc: "/images/Gallery/grace-gallery-5.svg",
+            imageSrc: "/images/Gallery/graceforimpact-img8.jpg",
             imageAlt: "Image 3",
         },
     ];

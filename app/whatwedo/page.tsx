@@ -9,13 +9,13 @@ import WhatWeDoStats from "@/components/WhatWeDo/WhatWeDoStats";
 const WhatWeDoPage = () => {
   return (
     <>
-      <WhoWeAre title={"WHAT WE DO"} description={"Grace for Impact provides high quality healthcare and education to the rural poor, where it is needed most, in Sub-Saharan Africa and Southeast Asia."} />
+      <WhoWeAre title={"WHAT WE DO"} description={"Grace For Impact provides high quality healthcare and education to the rural poor, where it is needed most, in Sub-Saharan Africa and Southeast Asia."} />
       <WhatWeDoTwo />
       {/* <WhatWeDoStats/> */}
       <Health />
-      <SectionTitleCard title={"WHAT WE DO"} description={"Grace for Impact provides high quality healthcare and education to the rural poor, where it is needed most, in Sub-Saharan Africa and Southeast Asia"} />
+      <SectionTitleCard title={"WHAT WE DO"} description={"Grace For Impact provides high quality healthcare and education to the rural poor, where it is needed most, in Sub-Saharan Africa and Southeast Asia"} />
       <Education />
-      <Agriculture />
+      {/* <Agriculture /> */}
     </>
   );
 };
