@@ -14,7 +14,7 @@ interface GetInvolvedData {
 
 const sections: GetInvolvedData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/grace-partners.jpg",
     videoId: "L61p2uyiMSo",
     title: "FUNDRAISE",
     description: `Grace for Impact makes it easy for you to get started with our fundraising kits in more than 10 different themes so there’s something for everyone! 
@@ -23,7 +23,7 @@ const sections: GetInvolvedData[] = [
     memberId: "1",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/grace-partners.jpg",
     videoId: "L61p2uyiMSo",
     title: "We put the FUN in Fundraise!",
     description: `Grace for Impact wants to be sure your fundraising event is a huge success and that you and your friends have a great time doing it! 

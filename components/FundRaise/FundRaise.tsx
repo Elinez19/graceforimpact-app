@@ -85,7 +85,7 @@ const FundRaise = () => {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Discover Ways You Can Help at Grace For Impact</h2>
         <p className="mt-2 text-lg text-gray-600">
-          GFI has so much to offer. Whether it is becoming a member, <br className="hidden sm:block" />
+          Grace For Impact has so much to offer. Whether it is becoming a member, <br className="hidden sm:block" />
           partnership, joining a team or volunteering as a board member, everyone can find a way to be involved.
         </p>
       </div>

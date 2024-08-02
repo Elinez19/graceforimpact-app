@@ -25,7 +25,7 @@ const Capacity = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/Gallery/graceforimpact-img15.jpg"
+                src="/images/Gallery/graceforimpact-img14.jpg"
                 alt="art cover"
                 loading="lazy"
                 width={1000}
@@ -50,7 +50,7 @@ const Capacity = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/Gallery/graceforimpact-img16.jpg"
+                src="/images/Banner/success-stories1.png"
                 alt="art cover"
                 loading="lazy"
                 width={1000}
@@ -75,7 +75,7 @@ const Capacity = () => {
           <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
             <div className="relative overflow-hidden rounded-xl">
               <Image
-                src="/images/Gallery/graceforimpact-img12.jpg"
+                src="/images/Gallery/graceforimpact-img15.jpg"
                 alt="art cover"
                 loading="lazy"
                 width={1000}

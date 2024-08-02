@@ -20,13 +20,13 @@ const Banner = () => {
         {
             title: "Grace is dedicated to ...",
             description: "compassionate, sincere, and holistic concern for the people we serve. We believe that every person should have access to quality health care, education and the opportunity to achieve their full potential regardless of race, religion, age, gender, or origin.",
-            imageSrc: "/images/Gallery/grace-gallery-3.svg",
+            imageSrc: "/images/Gallery/grace-distribution-1.jpg",
             imageAlt: "Image 3",
         },
         {
             title: "The organization is uniquely positioned as it ...",
             description: "collaborates with a large network of dedicated health professionals and partners locally and on the ground in the countries we work  to effectively and efficiently deliver measurable results and a solid value for money to our donors and partners.",
-            imageSrc: "/images/Gallery/graceforimpact-img15.jpg",
+            imageSrc: "/images/Gallery/grace-distribution-2.jpg",
             imageAlt: "Image 3",
         },
         {

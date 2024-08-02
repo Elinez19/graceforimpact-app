@@ -4,7 +4,7 @@ const contentArray = [
   {
     title: "Grace believes that...",
     text: "Access to quality health care and education are key and critical to breaking the vicious cycle of poverty and that every person should have the opportunity to maximize their potential",
-    image: "/images/Gallery/grace-gallery-4.svg"
+    image: "/images/Gallery/grace-distribution-2.jpg"
   },
   {
     title: "And we pursue this by...",

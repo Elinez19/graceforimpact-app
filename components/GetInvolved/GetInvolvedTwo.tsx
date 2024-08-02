@@ -14,7 +14,7 @@ interface GetInvolvedData {
 
 const sections: GetInvolvedData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/Gallery/grace-partners.jpg",
     videoId: "L61p2uyiMSo",
     title: "Fundraise",
     description: `We need you! Individual, corporate, religious organizations—community
