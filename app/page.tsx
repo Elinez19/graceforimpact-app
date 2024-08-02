@@ -30,7 +30,7 @@ export default function Home() {
       <ImpactStat />
       <Content />
       <CTA />
-      <WhoWeArePage />
+      {/* <WhoWeArePage /> */}
       <Gallery />
       <Features />
       <Network />

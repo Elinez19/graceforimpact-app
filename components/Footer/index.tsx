@@ -29,23 +29,14 @@ const Footer = () => {
                 className="animate_top w-1/2 lg:w-1/4">
                 <a href="index.html" className="relative w-60 h-20">
                   <Image
-                    width={110}
-                    height={80}
+                    width={1000}
+                    height={800}
                     src="images/logo/logo.svg"
                     alt="Logo"
-                    className="dark:hidden"
-                  />
-                  <Image
-                    width={110}
-                    height={80}
-                    src="images/logo/logo.svg"
-                    alt="Logo"
-                    className="hidden dark:block"
                   />
                 </a>
-
                 <p className="mb-10 mt-5 text-white">
-                  Grace For Impact - GFI is a non profit health care
+                  Grace For Impact a non profit health care
                   organization with their headquarter office in Dallas, Texas,
                   USA.
                 </p>
@@ -79,7 +70,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top">
                   <h4 className="mb-9 text-itemtitle2 font-medium text-white dark:text-white">
-                    HelpFul Links
+                    Helpful Links
                   </h4>
 
                   <ul>
@@ -140,7 +131,7 @@ const Footer = () => {
                       <a
                         href="/blog"
                         className="mb-3 inline-block hover:text-orange text-white">
-                        GFI Outreach Info
+                        Outreach Info
                       </a>
                     </li>
                     <li>
