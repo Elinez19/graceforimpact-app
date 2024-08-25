@@ -7,7 +7,7 @@ const GetInvolvedPage = () => {
   return (
     <>
       <WhoWeAre title={"GET INVOLVED"} description={"We need you! Individual, corporate, religious organizations—community fundraising and online fundraising kits available! See below."} />
-      <GetInvolvedThree />
+      {/* <GetInvolvedThree /> */}
       <GetInvolvedTwo />
       {/* <GetInvolvedGallery /> */}
     </>

@@ -14,7 +14,7 @@ interface GetInvolvedData {
 
 const sections: GetInvolvedData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/board/gfi-give.png",
     videoId: "L61p2uyiMSo",
     title: "EVERY DOLLAR COUNTS!",
     description: `Grace delivers a strong value for money to our donors and partners by leveraging donated goods, supplies, and equipment increasing the value of every $1 donated to more than $10.

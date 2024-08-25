@@ -7,7 +7,7 @@ const GetInvolvedPage = () => {
     <>
       <WhoWeAre title={"MAKE AN IMPACT TODAY!"} description={"GRACE CAN’T DO IT WITHOUT YOU- GIVE TODAY!. We need you! Individual, corporate, religious organizations—community fundraising and online fundraising kits available! See below."} />
       <GiveOne />
-      <Give />
+      {/* <Give /> */}
       {/* <GetInvolvedGallery /> */}
     </>
   );
