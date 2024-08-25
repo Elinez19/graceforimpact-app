@@ -62,7 +62,7 @@ const ImpactStat = () => {
         </h2>
         <div className="relative h-96 lg:h-[600px] rounded-lg shadow-lg overflow-hidden">
           <Image
-            src={"/images/network/impact-data.jpg"}
+            src={"/images/network/impact-data.png"}
             alt={"map-image"}
             layout="fill"
             objectFit="cover"

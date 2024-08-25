@@ -39,7 +39,7 @@ const network = () => {
         </h3>
 
         <Image
-          src={"/images/network/map.svg"}
+          src={"/images/network/impact-data.png"}
           alt={"map-image"}
           width={1400}
           height={800}

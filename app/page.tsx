@@ -32,7 +32,7 @@ export default function Home() {
       <CTA />
       {/* <WhoWeArePage /> */}
       <Gallery />
-      <Features />
+      {/* <Features /> */}
       <Network />
     </main>
   );

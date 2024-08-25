@@ -54,7 +54,7 @@ const CTA = () => {
                 <p className="text-white"> We are All About Impact</p>
               </div>
               <p className="mt-4 text-lg leading-relaxed text-white md:text-xl">
-                GFI has been providing health care to the underserved annually
+              Grace For Impact has been providing health care to the underserved annually
                 in different parts of Nigeria since 2005.
               </p>
               <div className="mt-10 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
