@@ -97,7 +97,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/vision"
+                        href="/valueformoney"
                         className="text-white mb-3 inline-block hover:text-orange">
                         Donate
                       </a>
@@ -129,14 +129,14 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="/blog"
+                        href="/success-stories"
                         className="mb-3 inline-block hover:text-orange text-white">
                         Outreach Info
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/blog"
+                        href="/success-stories"
                         className="mb-3 inline-block hover:text-orange text-white">
                         Global Impact Report
                       </a>
@@ -150,7 +150,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/board"
+                        href="/whoweare"
                         className="text-white
                          mb-3 inline-block hover:text-orange">
                         Contact Us
