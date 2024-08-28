@@ -107,23 +107,11 @@ const SingleBlogPage = async () => {
 
                 <div className="blog-details">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                  Grace is to IMPACT thousands of lives during its 2024  Annual Medical Outreach. Care in Action, in Nigeria.
                   </p>
 
                   <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
+                  Grace is to IMPACT thousands of lives during its 2024  Annual Medical Outreach. Care in Action, in Nigeria.
                   </p>
 
                   <div className="flex flex-wrap gap-5">
@@ -146,12 +134,7 @@ const SingleBlogPage = async () => {
                   </h3>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                  Grace is to IMPACT thousands of lives during its 2024  Annual Medical Outreach. Care in Action, in Nigeria.
                   </p>
                 </div>
 
