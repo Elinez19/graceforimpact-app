@@ -7,44 +7,44 @@ const HealthTwo = () => {
       title: "General Health",
       description:
         "General screening and referral services for the rural poor including malaria, HIV, Vision, Blood Pressure, Diabetes and more",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc: "/images/board/grace-dental.jpg",
       link: "/blog/blog-details",
     },
     {
       title: "Eye Health",
       description:
         "Vision services with optometrists and ophthalmologists including glasses, cataract screening and cataract surgery",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc: "/images/board/grace-eye-4.jpg",
       link: "/blog/blog-details",
     },
     {
       title: "Dental Health",
       description:
         "Dental screening and treatment including cavities, extractions, abscesses, surgery and other oral health maladies",
-      imageSrc: "/images/board/board-img-5.svg",
+      imageSrc: "/images/board/grace-dental-4.jpg",
       link: "/blog/blog-details",
     },
-    {
-      title: "Mental Health",
-      description:
-        "Providing mental health support including counseling, therapy, and stress management programs",
-      imageSrc: "/images/board/board-img-5.svg",
-      link: "/blog/blog-details",
-    },
-    {
-      title: "Nutrition",
-      description:
-        "Nutritional education and support services to promote healthy eating habits and improve overall health",
-      imageSrc: "/images/board/board-img-5.svg",
-      link: "/blog/blog-details",
-    },
-    {
-      title: "Maternal Health",
-      description:
-        "Comprehensive maternal health services including prenatal and postnatal care, education, and support",
-      imageSrc: "/images/board/board-img-5.svg",
-      link: "/blog/blog-details",
-    },
+    // {
+    //   title: "Mental Health",
+    //   description:
+    //     "Providing mental health support including counseling, therapy, and stress management programs",
+    //   imageSrc: "/images/board/board-img-5.svg",
+    //   link: "/blog/blog-details",
+    // },
+    // {
+    //   title: "Nutrition",
+    //   description:
+    //     "Nutritional education and support services to promote healthy eating habits and improve overall health",
+    //   imageSrc: "/images/board/board-img-5.svg",
+    //   link: "/blog/blog-details",
+    // },
+    // {
+    //   title: "Maternal Health",
+    //   description:
+    //     "Comprehensive maternal health services including prenatal and postnatal care, education, and support",
+    //   imageSrc: "/images/board/board-img-5.svg",
+    //   link: "/blog/blog-details",
+    // },
   ];
 
   return (

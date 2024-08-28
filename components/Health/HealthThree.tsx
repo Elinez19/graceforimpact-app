@@ -14,26 +14,19 @@ interface HealthData {
 
 const sections: HealthData[] = [
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/board/grace-dental.jpg",
     videoId: "L61p2uyiMSo",
     title: "GENERAL HEALTH",
-    description: `Over 400 million people do not have access to essential health services and people across at least 37 low- and middle-income countries are pushed further into extreme poverty (earning less than $1.25/day) because of the lack of healthcare. 
-      
-      The world’s most disadvantaged people are consistently missing out on even the most basic services which poses as a major threat to the goal of eliminating extreme poverty.
-      
-      Every year, over 13 million children under the age of 5 years die from illnesses which could have been avoided or treated.
+    description: `Over 400 million people globally lack access to essential health services, and in at least 37 low- and middle-income countries, this deprivation pushes people further into extreme poverty, living on less than $1.25 per day. The world's most disadvantaged populations are consistently excluded from even the most basic healthcare services, posing a significant obstacle to eradicating extreme poverty.
 
-       The poorest populations are most at risk of food shortage, lack of drinking water, and of a proper sanitation system. 
+This dire situation contributes to the alarming statistic that over 13 million children under the age of five die each year from preventable or treatable illnesses. The poorest communities are particularly vulnerable to food shortages, lack of clean drinking water, and inadequate sanitation systems, with Sub-Saharan Africa and South Asia being the most affected regions. Just five countries—India, Nigeria, the Democratic Republic of Congo, Pakistan, and Ethiopia—account for more than half of all child deaths worldwide, totaling over 6 million deaths annually.
 
-       Sub-Saharan Africa and South Asia are the most affected by this issue. Just five countries; India, Nigeria, Democratic Republic of Congo, Pakistan and Ethiopia account for over half of children’s deaths worldwide.  
-       
-       This represents over 6 million child deaths per year.
-      Grace for Impact is working to reduce these numbers because even one child death is one too many. Please help us continue our important work, give TODAY!
+Grace for Impact is dedicated to reducing these heartbreaking numbers, emphasizing that even one child death is one too many. They urge support for their critical mission to save lives and ask for donations to continue their essential work.
       `,
     memberId: "1",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/board/grace-eye-2.jpg",
     videoId: "L61p2uyiMSo",
     title: "EYE HEALTH",
     description: `39 million people in the world are blind, and a further 191 million are visually impaired. Blindness is most prevalent in developing countries where malnutrition, inadequate health and education services, poor water quality, and a lack of sanitation lead to a high incidence of eye disease.
@@ -44,7 +37,7 @@ Grace for Impact’s life-changing eye health program is made possible by our ge
     memberId: "2",
   },
   {
-    imgSrc: "/images/board/board-img-5.svg",
+    imgSrc: "/images/board/grace-dental-3.jpg",
     videoId: "L61p2uyiMSo",
     title: "DENTAL HEALTH",
     description: `Did you know that poor dental health could further cause problems such as heart disease, strokes, and diabetes? According to the World Health Organization, 60–90% of school children and nearly 100% of adults worldwide have dental cavities. About 30% of people aged 65-74 have no natural teeth.
@@ -85,8 +78,8 @@ const HealthThree = () => {
         </p>
       </div>
       {sections.map((section, index) => (
-        <div key={index} className="relative flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0 lg:space-x-6 bg-gray-100 border border-gray-300 rounded-lg py-6 px-6">
-          <div className={`flex-1 ${index % 2 === 0 ? 'order-1 lg:order-2' : 'order-1 lg:order-1'}`}>
+        <div key={index} className="relative flex flex-col lg:flex-row items-stretch justify-between space-y-6 lg:space-y-0 lg:space-x-6 bg-gray-100 border border-gray-300 rounded-lg py-6 px-6">
+          <div className={`flex-1 ${index % 2 === 0 ? 'order-1 lg:order-2' : 'order-1 lg:order-1'} flex items-stretch`}>
             <Image
               src={section.imgSrc}
               alt={section.title}
@@ -95,13 +88,15 @@ const HealthThree = () => {
               className="object-cover rounded-lg"
             />
           </div>
-          <div className={`flex-1 ${index % 2 === 0 ? 'order-2 lg:order-1' : 'order-2 lg:order-2'}`}>
-            <h2 className="text-3xl font-bold tracking-tight text-purple">
-              {section.title}
-            </h2>
-            <p className="mt-4 text-lg text-gray-700 whitespace-pre-line">
-              {section.description}
-            </p>
+          <div className={`flex-1 ${index % 2 === 0 ? 'order-2 lg:order-1' : 'order-2 lg:order-2'} flex flex-col justify-between`}>
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight text-purple">
+                {section.title}
+              </h2>
+              <p className="mt-4 text-lg text-gray-700 whitespace-pre-line">
+                {section.description}
+              </p>
+            </div>
             <div className="mt-6">
               <Link
                 href="/blog/blog-details"
