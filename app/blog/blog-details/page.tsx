@@ -90,11 +90,11 @@ const SingleBlogPage = async () => {
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    Grace for Impact
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: July 30, 2024
                     </span>{" "}
                   </li>
                   <li>
@@ -130,7 +130,7 @@ const SingleBlogPage = async () => {
                   </div>
 
                   <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
+                    Grace for Impact Events:
                   </h3>
 
                   <p>
