@@ -50,12 +50,12 @@ const menuData: Menu[] = [
         path: "/education",
         newTab: false,
       },
-      {
-        id: 23,
-        title: "Agriculture",
-        path: "/agriculture",
-        newTab: false,
-      },
+      // {
+      //   id: 23,
+      //   title: "Agriculture",
+      //   path: "/agriculture",
+      //   newTab: false,
+      // },
       {
         id: 24,
         title: "Capacity Development",
