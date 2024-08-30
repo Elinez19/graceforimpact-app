@@ -83,14 +83,14 @@ const Banner = () => {
                         </div>
                     </div>
                 ))}
-                <div className='md:flex align-middle justify-center lg:justify-start'>
+                {/* <div className='md:flex align-middle justify-center lg:justify-start'>
                     <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-5 px-6 bg-purple lg:px-14 mr-6'>
                         <Link href='#cook-section'>Lets make impact</Link>
                     </button>
                     <button className='flex border w-full md:w-auto mt-5 md:mt-0 border-purple justify-center rounded-full text-xl font-medium items-center py-5 px-10 text-pink hover:text-white hover:bg-purple'>
                         <Link href='#about-section'>Partner with us</Link>
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     )
