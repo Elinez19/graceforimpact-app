@@ -57,11 +57,37 @@ const VolunteerOne = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
+  
+    try {
+      const response = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        alert('Email sent successfully!');
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          expertise: "",
+          availability: "",
+          comments: "",
+        });
+      } else {
+        alert('Failed to send email');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Failed to send email');
+    }
   };
+  
 
   return (
     <div className="relative overflow-hidden bg-white py-16 space-y-24">
@@ -161,7 +187,7 @@ const VolunteerOne = () => {
                 htmlFor="phone"
                 className="block text-sm font-medium text-gray-700"
               >
-                Phone
+                Phone(WhatsApp Number) 
               </label>
               <input
                 type="tel"
@@ -178,7 +204,7 @@ const VolunteerOne = () => {
                 htmlFor="expertise"
                 className="block text-sm font-medium text-gray-700"
               >
-                Area of Expertise
+                Profession
               </label>
               <select
                 name="expertise"
@@ -189,11 +215,13 @@ const VolunteerOne = () => {
                 className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple focus:border-purple sm:text-sm"
               >
                 <option value="">Select your expertise</option>
+                <option value="Medical Doctor">Medical Doctor
+                </option>
+                <option value="Optometrist">Optometrist</option>
                 <option value="Nurse">Nurse</option>
-                <option value="Doctor">Doctor</option>
                 <option value="Dentist">Dentist</option>
-                <option value="Administrator">Administrator</option>
-                <option value="Educator">Educator</option>
+                <option value="Pharmacist">Pharmacist</option>
+                <option value="Medical Lab Scientist">Medical Lab Scientist</option>
                 <option value="Other">Other</option>
               </select>
             </div>

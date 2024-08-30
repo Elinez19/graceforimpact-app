@@ -7,10 +7,10 @@ const Board = () => {
   return (
     <>
       
-      <WhoWeAre title={"Board of Members"} description={"Grace for Impact builds on more than 10 years of organizational experience and has a passionate and talented senior leadership team and board of directors comprised of industry leaders who are committed to long-term program excellence, in addition to transparency, accountability and efficiency."} />
-      <BoardThree />
+      <WhoWeAre title={"Grace for Impact Board Members"} description={"Grace for Impact builds on more than 10 years of organizational experience and has a passionate and talented senior leadership team and board of directors comprised of industry leaders who are committed to long-term program excellence, in addition to transparency, accountability and efficiency."} />  
       <SectionTitleCard title={`MEET THE BOARD OF DIRECTORS`} description={`Grace for Impact builds on more than 10 years of organizational experience and has a passionate and talented senior leadership team and board of directors comprised of industry leaders who are committed to long-term program excellence, in addition to transparency, accountability and efficiency.`} />
       <Team />
+      <BoardThree />
     </>
   );
 };

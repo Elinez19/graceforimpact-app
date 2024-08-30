@@ -93,18 +93,18 @@ const menuData: Menu[] = [
         path: "/getinvolved",
         newTab: false,
       },
-      {
-        id: 32,
-        title: "Give",
-        path: "/give",
-        newTab: false,
-      },
-      {
-        id: 33,
-        title: "FundRaise",
-        path: "/fundraise",
-        newTab: false,
-      },
+      // {
+      //   id: 32,
+      //   title: "Give",
+      //   path: "/give",
+      //   newTab: false,
+      // },
+      // {
+      //   id: 33,
+      //   title: "FundRaise",
+      //   path: "/fundraise",
+      //   newTab: false,
+      // },
       {
         id: 34,
         title: "Join Us In The Field",

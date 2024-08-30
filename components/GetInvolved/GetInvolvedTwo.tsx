@@ -39,7 +39,7 @@ const GetInvolvedThree = () => {
         Discover Ways you can help at GraceForImpact
         </h1>
         <p className="mt-2 text-lg text-purple">
-        GFI has so much to offer. Whether it is becoming a member, partnership, joining a team or volunteering as a board member, everyone can find a way to be involved.
+        Grace for Impact has so much to offer. Whether it is becoming a member, partnership, joining a team or volunteering as a board member, everyone can find a way to be involved.
       </p>
       </div>
       {sections.map((section, index) => (
