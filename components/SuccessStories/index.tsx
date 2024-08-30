@@ -100,15 +100,6 @@ const SuccessStories = () => {
             <p className="mt-4 text-lg text-gray-700 whitespace-pre-line">
               {section.description}
             </p>
-            <div className="mt-6">
-              <Link
-                href="/blog/blog-details"
-                className="inline-block bg-purple px-6 py-2 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple hover:bg-purple/95 hover:ring-purple"
-                passHref
-              >
-                Learn More
-              </Link>
-            </div>
           </div>
         </div>
       ))}

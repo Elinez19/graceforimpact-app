@@ -25,9 +25,9 @@ const ImpactStat = () => {
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-lg flex items-center">
-                <FaUser className="text-red-700 text-4xl mr-4" /> {/* Beneficiaries Icon */}
+                <FaUser className="text-purple text-4xl mr-4" /> {/* Beneficiaries Icon */}
                 <div>
-                  <h4 className="text-3xl font-bold text-red-700 mb-2">
+                  <h4 className="text-3xl font-bold text-purple mb-2">
                     678,000
                   </h4>
                   <p className="text-gray-700">
@@ -36,9 +36,9 @@ const ImpactStat = () => {
                 </div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg flex items-center">
-                <FaDollarSign className="text-red-700 text-4xl mr-4" /> {/* Donated Supplies Icon */}
+                <FaDollarSign className="text-purple text-4xl mr-4" /> {/* Donated Supplies Icon */}
                 <div>
-                  <h4 className="text-3xl font-bold text-red-700 mb-2">
+                  <h4 className="text-3xl font-bold text-purple mb-2">
                     $26M
                   </h4>
                   <p className="text-gray-700">
@@ -47,9 +47,9 @@ const ImpactStat = () => {
                 </div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg flex items-center">
-                <FaMoneyBillWave className="text-red-700 text-4xl mr-4" /> {/* Cash Cost Icon */}
+                <FaMoneyBillWave className="text-purple text-4xl mr-4" /> {/* Cash Cost Icon */}
                 <div>
-                  <h4 className="text-3xl font-bold text-red-700 mb-2">
+                  <h4 className="text-3xl font-bold text-purple mb-2">
                     $4.97
                   </h4>
                   <p className="text-gray-700">
@@ -58,9 +58,9 @@ const ImpactStat = () => {
                 </div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg flex items-center">
-                <FaDollarSign className="text-red-700 text-4xl mr-4" /> {/* Market Value Icon */}
+                <FaDollarSign className="text-purple text-4xl mr-4" /> {/* Market Value Icon */}
                 <div>
-                  <h4 className="text-3xl font-bold text-red-700 mb-2">
+                  <h4 className="text-3xl font-bold text-purple mb-2">
                     $64M
                   </h4>
                   <p className="text-gray-700">
@@ -69,9 +69,9 @@ const ImpactStat = () => {
                 </div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg flex items-center">
-                <FaClock className="text-red-700 text-4xl mr-4" /> {/* Volunteer Hours Icon */}
+                <FaClock className="text-purple text-4xl mr-4" /> {/* Volunteer Hours Icon */}
                 <div>
-                  <h4 className="text-3xl font-bold text-red-700 mb-2">
+                  <h4 className="text-3xl font-bold text-purple mb-2">
                     504,000
                   </h4>
                   <p className="text-gray-700">
