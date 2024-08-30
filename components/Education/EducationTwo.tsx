@@ -69,11 +69,11 @@ const EducationTwo = () => {
                 <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
                   {card.description}
                 </p>
-                <Link href={card.link} passHref>
+                {/* <Link href={card.link} passHref>
                   <span className="inline-block px-6 py-2 text-white bg-purple rounded-full hover:bg-purple-700 transition cursor-pointer">
                     Read more
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}
